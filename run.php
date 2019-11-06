@@ -2,7 +2,7 @@
 
 include ("function.php");
 
-$kode = array("GOFOODBOBA07","AYOCOBAGOJEK","COBAINGOJEK");
+$kode = array("GOFOODBOBA07","AYOCOBAGOJEK","COBAINGOJEK","GOFOODBOBA19");
 $file = file_get_contents('token.txt');
 $a = array_filter(explode(PHP_EOL,$file));
 
